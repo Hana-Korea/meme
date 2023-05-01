@@ -5,7 +5,6 @@ export const Layout = styled.div`
   background: ${({ theme }) => theme.palette.black};
   height: 812px;
   width: 375px;
-  padding: 0 20px 0;
   position: absolute;
   top: 0;
   bottom: 0;

@@ -6,8 +6,9 @@ export const Header = styled.header`
   font-family: 'EF_jejudoldam';
   position: absolute;
   right: 0;
-  width: 350px;
+  width: 100%;
   text-align: end;
+  padding: 0 20px 0;
   margin-top: 60px;
 `;
 
@@ -24,4 +25,9 @@ export const Link = styled.a`
   &:visited {
     color: ${({ theme }) => theme.palette.white};
   }
+`;
+
+export const ToggleBtn = styled.button`
+  background: transparent;
+  border: none;
 `;
